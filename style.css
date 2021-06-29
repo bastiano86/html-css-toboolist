@@ -1,24 +1,143 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0;
 }
-.logo{
+
+body {
+  background-color: #f8f8f8;
+}
+
+header {
+  height:100px;
+  background-color: white;
   line-height: 100px;
+  margin-bottom: 60px;
 }
 
 header h1{
+  vertical-align: middle;
   display: inline-block;
   font-family: arial;
-  font-size: 21pt;
+  font-size: 30pt;
 }
 
 header img{
-  height: 100px;
-  background-color: lightgrey;
-  padding-left: 5px;
+  vertical-align: middle;
+  background-color: white;
+  padding-left: 10px;
 }
 
-.logo {
+#content {
+  width: 80%;
+  height: 1000px;
+  background-color: white;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
 
+.button1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-family: arial;
+  font-weight: 100;
+  font-size: 10pt;
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #3399ff;
+  border-radius: 8px;
+  border: none;
+
+}
+
+.button2 {
+  font-family: arial;
+  font-weight: 100;
+  font-size: 10pt;
+  width: 100px;
+  height: 40px;
+  color: gainsboro;
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  border: 2px solid gainsboro;
+  margin-left: 5px;
+}
+
+hr {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 2px;
+  border: none;
+}
+
+.content ul li {
+  line-height: 20px;
+}
+
+li {
+    margin-top: 18px;
+    list-style: none;
+    vertical-align: middle;
+
+}
+
+.tag{
+  height: 22px;
+  margin: 3px;
+  padding: 7px 15px;
+  border-radius: 10px;
+  font-size: 8pt;
+  color: white;
+  vertical-align: middle;
+}
+
+.bullet {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.o-green {
+  color: #66cc99;
+  border: 2px solid #66cc99;
+}
+
+.o-red {
+  color: #ff6666;
+  border: 2px solid #ff6666;
+}
+
+.blue {
+  background-color: #3399ff;
+}
+
+.purple {
+  background-color: #9966cc;
+}
+
+.green {
+  background-color: #66cc99;
+}
+
+.orange {
+  background-color: #ff9933;
+}
+
+.pink {
+  background-color: #cc6699;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.list{
+  font-family: arial;
+  margin-left: 30px;
+  margin-top: 40px;
 }

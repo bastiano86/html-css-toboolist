@@ -3,13 +3,17 @@
   margin: 0 auto;
   padding: 0;
 }
+.logo{
+  line-height: 100px;
+}
 
-h1{
+header h1{
+  display: inline-block;
   font-family: arial;
   font-size: 21pt;
 }
 
-header{
+header img{
   height: 100px;
   background-color: lightgrey;
   padding-left: 5px;

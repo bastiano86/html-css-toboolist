@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1{
+  font-family: arial;
+  font-size: 21pt;
+}
+
+header{
+  height: 100px;
+  background-color: lightgrey;
+  padding-left: 5px;
+}
+
+.logo {
+
+}
